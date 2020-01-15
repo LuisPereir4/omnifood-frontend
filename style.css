@@ -12,3 +12,17 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(resources/css/img/hero.jpg);
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
+}
