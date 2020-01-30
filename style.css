@@ -26,7 +26,14 @@ header {
 }
 
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 
 .hero-text-box {
@@ -35,4 +42,31 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.button:link,
+.button:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+.button:hover,
+.button:active {
+    background-color: #cf6d17;
+}
+
+.button-full:link
+.button-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.button-ghost:link
+.button-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
 }
